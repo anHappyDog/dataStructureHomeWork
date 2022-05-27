@@ -1,1 +1,1 @@
-# graphSearch-homework6-This is for the sixth homework for data structure, this part is about tree.
+第五部分是关于树的题目，大概就是这样，其中最难的估计是哈夫曼压缩和解压缩，没有看完题结果文件结束符弄了半天都忘记加了，后面想了想，如果直接加大数组变成255，应该其他像图片的文件都可以压缩。
