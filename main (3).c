@@ -75,7 +75,7 @@ void btOrder(pNode root, int allcount, int mode)
 	if (root != NULL)
 	{
 		btOrder(root->lchild, allcount, mode);
-		if (finishedNode < allcount)
+		if (finishedNode < allcount&& (root->sim - 1e-6 > 0))
 		{
 			if (mode == 1)
 				printf("%.6f %d %d-%d\n", root->sim, root->webpage, root->firstNum, root->lastNum);
